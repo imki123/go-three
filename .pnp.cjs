@@ -28,6 +28,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["prettier", "npm:2.8.4"],\
+            ["three", "npm:0.150.1"],\
             ["vite", "virtual:64f8166a6c5fada0b4d43624e5b207b8d177c23fcbe059d9ae16c79e2b9b38fa83578fb17523626b6f719bd1e6d32906a7d9cc9a57e9acaf49a101bedac92598#npm:4.1.4"]\
           ],\
           "linkType": "SOFT"\
@@ -638,6 +640,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["go-three", "workspace:."],\
+            ["prettier", "npm:2.8.4"],\
+            ["three", "npm:0.150.1"],\
             ["vite", "virtual:64f8166a6c5fada0b4d43624e5b207b8d177c23fcbe059d9ae16c79e2b9b38fa83578fb17523626b6f719bd1e6d32906a7d9cc9a57e9acaf49a101bedac92598#npm:4.1.4"]\
           ],\
           "linkType": "SOFT"\
@@ -1101,6 +1105,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["prettier", [\
+        ["npm:2.8.4", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-2.8.4-ba64a351d1-c173064bf3.zip/node_modules/prettier/",\
+          "packageDependencies": [\
+            ["prettier", "npm:2.8.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["promise-inflight", [\
         ["npm:1.0.1", {\
           "packageLocation": "./.yarn/cache/promise-inflight-npm-1.0.1-5bb925afac-2274948309.zip/node_modules/promise-inflight/",\
@@ -1336,6 +1349,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["minizlib", "npm:2.1.2"],\
             ["mkdirp", "npm:1.0.4"],\
             ["yallist", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["three", [\
+        ["npm:0.150.1", {\
+          "packageLocation": "./.yarn/cache/three-npm-0.150.1-6829be68c6-b12a92a681.zip/node_modules/three/",\
+          "packageDependencies": [\
+            ["three", "npm:0.150.1"]\
           ],\
           "linkType": "HARD"\
         }]\
