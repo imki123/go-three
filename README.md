@@ -1,6 +1,6 @@
 # Go-Three
 
-This project is created with Vite, yarn berry.
+This is a `Three.js` project with `Vite`, `yarn berry`.
 
 ## How to Install
 
